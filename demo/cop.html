@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu dọc</title>
+    <link rel="stylesheet" href="bai2.css">
+    <style>
+       .menu {
+            background-color: #f2f2f2;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu li {
+            margin: 0 10px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .content {
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: none;
+        }
+
+        .menu li:hover .content {
+            display: block;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .item img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .item-details b {
+            font-weight: bold;
+        }
+
+        .item-details span {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Ở đâu</a>
+                <div class="content">
+                    <div class="item">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.sxZncf9Tt3J3OouTbp0rVAHaEL&pid=Api&P=0&h=220">
+                        <div class="item-details">
+                            <b>Linh cà ri gà</b>
+                            <p><span>47 hùng vương</span></p>
+                            <p><b>Hảo</b> Món ăn hấp dẫn quá</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.sxZncf9Tt3J3OouTbp0rVAHaEL&pid=Api&P=0&h=220">
+                        <div class="item-details">
+                            <b>Linh cà ri gà</b>
+                            <p><span>47 hùng vương</span></p>
+                            <p><b>Hảo</b> Món ăn hấp dẫn quá</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#">Giao hàng</a></li>
+            <li><a href="#">Ăn gì</a></li>
+            <li><a href="#">Sưu tập</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">Bình luận</a></li>
+            <li><a href="#">Blogs</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

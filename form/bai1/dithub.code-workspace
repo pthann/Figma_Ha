@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../data struction co trang"
+		},
+		{
+			"path": "../../../java.js"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "btwed"
+	}
+}
