@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.header{
+    background-color: aqua;
+    text-align: center;
+    padding: 60px;
+    color: white;
+
+}
+.navbar{
+    background-color: black;
+    padding:15px 20px;
+}
+.navbar a{
+    text-decoration:none;
+    padding:15px 20px;
+    color: white;
+    
+}
+.navbar a:hover{
+    color: black;
+    background-color: white;
+
+}
+.row{
+    display:flex;
+    /* flex-wrap: wrap; */
+}
+.trai{
+    background-color: blanchedalmond;
+    padding:20px;
+    flex:30%;
+}
+.phai{
+    background-color: aliceblue;
+    padding:20px;
+    flex :70%;
+}
+.hinhfake{
+    background-color:rgb(106, 175, 215);
+    padding:20Px;
+    width:100%;
+}
+.fooder{
+    background-color: blueviolet;
+    text-align: center;
+    padding:20px;
+
+}
+
